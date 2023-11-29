@@ -1,46 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T09:48:36.513Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="9p1ibS8Bw8iaJsjXUw8B" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T11:41:14.839Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="t6jOgPv5rFHxfrk6Om8t" version="22.1.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="954" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Mt093NcTjKamDUQIXiv7-1" value="Продажи - факт" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mt093NcTjKamDUQIXiv7-1" value="Продажи - факт" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="400" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Mt093NcTjKamDUQIXiv7-2" value="+Код курса&amp;nbsp; int&lt;br&gt;+Код месяца&amp;nbsp; &amp;nbsp;int&lt;br&gt;+Выручка&amp;nbsp; &amp;nbsp;numeric&lt;br&gt;+Услуги numeric" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Mt093NcTjKamDUQIXiv7-1">
+        <mxCell id="Mt093NcTjKamDUQIXiv7-2" value="+Код курса&amp;nbsp; int&lt;br&gt;+Код месяца&amp;nbsp; &amp;nbsp;int&lt;br&gt;+Выручка&amp;nbsp; &amp;nbsp;numeric&lt;br&gt;+Количество услуг int" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="Mt093NcTjKamDUQIXiv7-1" vertex="1">
           <mxGeometry y="50" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Mt093NcTjKamDUQIXiv7-3" value="Курс" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mt093NcTjKamDUQIXiv7-3" value="Курс" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="430" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Mt093NcTjKamDUQIXiv7-4" value="+Код курса&amp;nbsp; &amp;nbsp;int&lt;br&gt;+Код направления&amp;nbsp; int&lt;br&gt;+Наименование&amp;nbsp; &amp;nbsp;text&lt;br&gt;+Стоимость&amp;nbsp; numeric" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Mt093NcTjKamDUQIXiv7-3">
+        <mxCell id="Mt093NcTjKamDUQIXiv7-4" value="+Код курса&amp;nbsp; &amp;nbsp;int&lt;br&gt;+Код направления&amp;nbsp; int&lt;br&gt;+Наименование&amp;nbsp; &amp;nbsp;text&lt;br&gt;+Стоимость&amp;nbsp; numeric" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="Mt093NcTjKamDUQIXiv7-3" vertex="1">
           <mxGeometry y="50" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Mt093NcTjKamDUQIXiv7-5" value="Месяц" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mt093NcTjKamDUQIXiv7-5" value="Месяц" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="660" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Mt093NcTjKamDUQIXiv7-6" value="+Код месяца&amp;nbsp; uid&lt;br&gt;+Месяц - номер&amp;nbsp; int&lt;br&gt;+Месяц - наименование&amp;nbsp; text&lt;br&gt;+Год&amp;nbsp; numeric" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Mt093NcTjKamDUQIXiv7-5">
+        <mxCell id="Mt093NcTjKamDUQIXiv7-6" value="+Код месяца&amp;nbsp; uid&lt;br&gt;+Месяц - номер&amp;nbsp; int&lt;br&gt;+Месяц - наименование&amp;nbsp; text&lt;br&gt;+Год&amp;nbsp; numeric" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="Mt093NcTjKamDUQIXiv7-5" vertex="1">
           <mxGeometry y="50" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Mt093NcTjKamDUQIXiv7-7" value="Направление" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mt093NcTjKamDUQIXiv7-7" value="Направление" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="440" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Mt093NcTjKamDUQIXiv7-8" value="+Код направления.&amp;nbsp; int&lt;br&gt;+Наименование.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;text&lt;br&gt;+Описание.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;text" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Mt093NcTjKamDUQIXiv7-7">
+        <mxCell id="Mt093NcTjKamDUQIXiv7-8" value="+Код направления.&amp;nbsp; int&lt;br&gt;+Наименование.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;text&lt;br&gt;+Описание.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;text" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="Mt093NcTjKamDUQIXiv7-7" vertex="1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Mt093NcTjKamDUQIXiv7-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=1;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Mt093NcTjKamDUQIXiv7-3" target="Mt093NcTjKamDUQIXiv7-2">
+        <mxCell id="Mt093NcTjKamDUQIXiv7-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=1;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Mt093NcTjKamDUQIXiv7-3" target="Mt093NcTjKamDUQIXiv7-2" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="260" y="660" as="sourcePoint" />
             <mxPoint x="360" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mt093NcTjKamDUQIXiv7-10" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=0.006;exitY=0.386;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.013;entryY=0.643;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mt093NcTjKamDUQIXiv7-6" target="Mt093NcTjKamDUQIXiv7-2">
+        <mxCell id="Mt093NcTjKamDUQIXiv7-10" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=0.006;exitY=0.386;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.013;entryY=0.643;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Mt093NcTjKamDUQIXiv7-6" target="Mt093NcTjKamDUQIXiv7-2" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="150" y="860" as="sourcePoint" />
             <mxPoint x="250" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mt093NcTjKamDUQIXiv7-11" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERzeroToMany;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.004;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Mt093NcTjKamDUQIXiv7-4" target="Mt093NcTjKamDUQIXiv7-8">
+        <mxCell id="Mt093NcTjKamDUQIXiv7-11" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERzeroToMany;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.004;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Mt093NcTjKamDUQIXiv7-4" target="Mt093NcTjKamDUQIXiv7-8" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="610" y="440" as="sourcePoint" />
             <mxPoint x="290" y="230" as="targetPoint" />
