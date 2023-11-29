@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T09:45:15.136Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="oSU-K9Zic_tbQ396QRgw" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T09:45:47.283Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="ZJlzQKajBEzcHOPXOvZU" version="22.1.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="954" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry y="50" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Mt093NcTjKamDUQIXiv7-7" value="Направление" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="380" width="160" height="120" as="geometry" />
+          <mxGeometry x="640" y="440" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Mt093NcTjKamDUQIXiv7-8" value="+Код направления&lt;br&gt;+Наименование&lt;br&gt;+Описание" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Mt093NcTjKamDUQIXiv7-7">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
@@ -40,7 +40,7 @@
             <mxPoint x="250" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mt093NcTjKamDUQIXiv7-11" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERzeroToMany;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Mt093NcTjKamDUQIXiv7-3" target="Mt093NcTjKamDUQIXiv7-7">
+        <mxCell id="Mt093NcTjKamDUQIXiv7-11" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERzeroToMany;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.004;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Mt093NcTjKamDUQIXiv7-4" target="Mt093NcTjKamDUQIXiv7-8">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="610" y="440" as="sourcePoint" />
             <mxPoint x="290" y="230" as="targetPoint" />
